@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>VijaQuick - Your One-Stop Shop</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+    <script type="module" src="./src/index.js"></script>
+  </head>
+  <body>
+    <!-- Logo Container -->
+    <div class="logo-container">
+      <a href="/" class="logo">VijaQuick</a>
+    </div>
+
+    <!-- User Controls -->
+    <div class="user-controls">
+      <button id="sidebarToggle" class="btn btn-light" type="button">
+        <i class="bi bi-list"></i>
+      </button>
+    </div>
+
+    <!-- Sidebar -->
+    <div class="sidebar" id="sidebar">
+      <div class="px-3 mb-4">
+        <form class="d-flex">
+          <div class="input-group">
+            <input class="form-control" type="search" placeholder="Search products...">
+            <button class="btn btn-outline-primary" type="submit">
+              <i class="bi bi-search"></i>
+            </button>
+          </div>
+        </form>
+      </div>
+      <div class="py-2">
+        <a href="#" class="sidebar-link">
+          <i class="bi bi-laptop"></i>
+          Electronics
+        </a>
+        <a href="#" class="sidebar-link">
+          <i class="bi bi-briefcase"></i>
+          Corporate Daily Use
+        </a>
+        <a href="#" class="sidebar-link">
+          <i class="bi bi-house-heart"></i>
+          Kitchen & Home
+        </a>
+        <a href="#" class="sidebar-link">
+          <i class="bi bi-puzzle"></i>
+          Baby Toys & Stationery
+        </a>
+        <a href="#" class="sidebar-link">
+          <i class="bi bi-lamp"></i>
+          Home Decoration
+        </a>
+        <a href="#" class="sidebar-link">
+          <i class="bi bi-person-workspace"></i>
+          Men's & Women's Clothing
+        </a>
+      </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content" id="mainContent">
+      <!-- Hero Banner -->
+      <div class="hero-banner d-flex align-items-center mb-5">
+        <div class="container text-white text-center">
+          <h1 class="display-4 fw-bold mb-4">Welcome to VijaQuick</h1>
+          <p class="lead mb-4">Your one-stop destination for all your shopping needs</p>
+          <a href="#categories" class="btn btn-primary btn-lg">Explore Categories</a>
+        </div>
+      </div>
+
+      <!-- Categories Section -->
+      <div id="categories" class="container-fluid mb-5">
+        <h2 class="text-center mb-4">Shop by Category</h2>
+        <div class="row g-4">
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="card category-card h-100">
+              <img src="https://images.unsplash.com/photo-1498049794561-7780e7231661?auto=format&fit=crop&w=500&q=80" 
+                   class="card-img-top" alt="Electronics">
+              <div class="card-body text-center">
+                <h5 class="card-title">Electronics</h5>
+                <p class="card-text">Latest gadgets and electronic devices</p>
+                <a href="#" class="btn btn-outline-primary">Browse Electronics</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="card category-card h-100">
+              <img src="https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?auto=format&fit=crop&w=500&q=80" 
+                   class="card-img-top" alt="Corporate Daily Use">
+              <div class="card-body text-center">
+                <h5 class="card-title">Corporate Daily Use</h5>
+                <p class="card-text">Essential office supplies and accessories</p>
+                <a href="#" class="btn btn-outline-primary">Browse Office Items</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="card category-card h-100">
+              <img src="https://images.unsplash.com/photo-1556911220-bff31c812dba?auto=format&fit=crop&w=500&q=80" 
+                   class="card-img-top" alt="Kitchen & Home">
+              <div class="card-body text-center">
+                <h5 class="card-title">Kitchen & Home</h5>
+                <p class="card-text">Modern kitchen appliances and home essentials</p>
+                <a href="#" class="btn btn-outline-primary">Browse Kitchen Items</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="card category-card h-100">
+              <img src="https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?auto=format&fit=crop&w=500&q=80" 
+                   class="card-img-top" alt="Baby Toys & Stationery">
+              <div class="card-body text-center">
+                <h5 class="card-title">Baby Toys & Stationery</h5>
+                <p class="card-text">Educational toys and office supplies</p>
+                <a href="#" class="btn btn-outline-primary">Browse Toys & Stationery</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="card category-card h-100">
+              <img src="https://images.unsplash.com/photo-1538688525198-9b88f6f53126?auto=format&fit=crop&w=500&q=80" 
+                   class="card-img-top" alt="Home Decoration">
+              <div class="card-body text-center">
+                <h5 class="card-title">Home Decoration</h5>
+                <p class="card-text">Beautiful decor items for your home</p>
+                <a href="#" class="btn btn-outline-primary">Browse Decor</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="card category-card h-100">
+              <img src="https://images.unsplash.com/photo-1445205170230-053b83016050?auto=format&fit=crop&w=500&q=80" 
+                   class="card-img-top" alt="Men's & Women's Clothing">
+              <div class="card-body text-center">
+                <h5 class="card-title">Men's & Women's Clothing</h5>
+                <p class="card-text">Trendy fashion for everyone</p>
+                <a href="#" class="btn btn-outline-primary">Browse Fashion</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
